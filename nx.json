@@ -16,6 +16,7 @@
           "echo $SELECTED_CLI",
           "echo $NX_E2E_CI_CACHE_KEY"
         ],
+        "strictlyOrderedTargets": ["build", "e2e"],
         "cacheDirectory": "/tmp/nx-cache"
       }
     }
